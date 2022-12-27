@@ -6,3 +6,8 @@ body {
 footer {
     font-style: italic;
 }
+
+h3 {
+    display: block;
+    width: auto;
+}
