@@ -29,4 +29,7 @@ img {
 .container {
     background-color: antiquewhite;
     color: black;
+    padding-bottom: 2em;
+    margin: 1em;
+
 }
