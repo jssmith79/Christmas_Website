@@ -10,14 +10,44 @@
 <body>
     <h1>Family Christmas Website for the Scalzitti and Carso Family and Children</h1>
     <h2>Other Information to Come</h2>
+    <br>
     <hr>
-        <h3>
+    <br>
+    <div class="photo">
         <img src="https://scontent.feau1-1.fna.fbcdn.net/v/t1.6435-9/46452289_10214415440513926_2839029792756465664_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=ZiZUujyWFPcAX-4z1jT&_nc_ht=scontent.feau1-1.fna&oh=00_AfBDdt3Cz7tCL5MMpA3jgeBctNq-JNvsn-cSTPyPESBvbQ&oe=63D1B80F" alt="Family Photo">
-        </h3>
-    <div>
-        <button>Submit</button>
     </div>
-
+        <br>
+        <br>
+    <div>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Sign Up</h1>
+          <p>Please fill in this form to participate in the Secret Santa this year.</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+          </div>
+        </div>
+      </form>
 </body>
+<br>
+<br>
 <footer>With Loving Memory to our friends and relatives who are not able to celebrate with us anymore.</footer>
 </html>

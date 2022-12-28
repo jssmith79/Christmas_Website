@@ -1,13 +1,32 @@
 body {
     color: red;
     background-color: green;
+    text-align: center;
 }
 
 footer {
     font-style: italic;
+    font-size: x-small;
+    color: antiquewhite;
 }
 
-h3 {
-    display: block;
-    width: auto;
+.photo {
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    image-rendering: auto;
+    height: 450px;
+    width: 800px;
+    border: 2px solid antiquewhite;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.container {
+    background-color: antiquewhite;
+    color: black;
 }
